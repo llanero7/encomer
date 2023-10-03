@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family:'Sunset';
+    src: url('/src/fonts/SunsetBoulevard-Regular.fft'),
+}
+
+@font-face {
+    font-family:'gilroyBold';
+    src: url('/src/fonts/gilroyBold.woff2') format('woff2'),
+         url('/src/fonts/gilroyBold.woff') format('woff');
+}
+
+@font-face {
+    font-family:'gilroySemibold';
+    src: url('/src/fonts/gilroySemibold.woff2') format('woff2'),
+         url('/src/fonts/gilroySemibold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'gilroyMedium';
+    src: url('/src/fonts/gilroyMedium.woff2') format('woff2'),
+         url('/src/fonts/gilroyMedium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'gilroyRegular';
+    src: url('/src/fonts/gilroyRegular.woff2') format('woff2'),
+         url('/src/fonts/gilroyRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.h1, h1 {
+    @apply text-3xl font-gilroySemibold tracking-tight mb-5 sm:pt-7 md:pt-0
+}
+
+.table {
+    @apply w-full text-base text-left text-gray-900 mb-5 font-gilroyRegular
+}
+
+.table thead{
+    @apply text-xs text-gray-900 font-gilroySemibold 
+}
+
+.table thead th {
+    @apply px-6 py-3 text-base
+}
+
+
+.view-more {
+    @apply flex items-center font-medium text-ligthGreen hover:text-ligtherGreen
+}
