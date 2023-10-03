@@ -209,7 +209,7 @@
             Hemos actualizado el módulo de compras. <a href="#" class="text-ligthGreen ml-2 hover:underline">Ver detalles</a>
          </div>
          <div class="hidden md:flex items-center justify-end">
-            <a href="#" class="flex items-center  border rounded-full p-1 pr-4 w-10 h-10"> 
+            <a href="#" class="flex items-center justify-center border rounded-full w-10 h-10 hover:bg-gray-100"> 
                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewBox="0 0 19 22" fill="none">
                   <g clip-path="url(#clip0_165_1346)">
                   <path d="M9.50003 22C10.998 22 12.213 20.7689 12.213 19.25H6.78702C6.78702 20.7689 8.00208 22 9.50003 22ZM18.6349 15.5671C17.8155 14.6751 16.2824 13.3332 16.2824 8.9375C16.2824 5.59883 13.9718 2.92617 10.8563 2.27047V1.375C10.8563 0.615742 10.249 0 9.50003 0C8.75106 0 8.14373 0.615742 8.14373 1.375V2.27047C5.02824 2.92617 2.71771 5.59883 2.71771 8.9375C2.71771 13.3332 1.18456 14.6751 0.365186 15.5671C0.110721 15.8443 -0.00209121 16.1756 2.93223e-05 16.5C0.0046945 17.2047 0.55052 17.875 1.36141 17.875H17.6386C18.4495 17.875 18.9958 17.2047 19 16.5C19.0022 16.1756 18.8893 15.8439 18.6349 15.5671Z" fill="#696F71"/>
@@ -221,7 +221,7 @@
                   </defs>
                </svg>
             </a>
-            <a href="#" class="flex items-center border rounded-full p-1 pr-4 w-10 h-10 ml-2"> 
+            <a href="#" class="flex items-center justify-center border rounded-full w-10 h-10 hover:bg-gray-100 ml-2"> 
                <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                   <g clip-path="url(#clip0_165_1343)">
                   <path d="M0 9.43373C0.05888 4.74296 3.46738 0.805586 7.97497 0.078385C8.13852 0.0521795 8.30208 0.0325254 8.46563 0.00631997C8.87779 -0.0526423 9.21799 0.10459 9.39463 0.432159C9.57127 0.766278 9.50585 1.15936 9.21144 1.46072C8.65536 2.01104 8.20394 2.63342 7.86375 3.33441C6.47026 6.21046 7.49738 9.5058 9.81987 11.2878C12.1293 13.0632 14.6415 13.2139 17.278 12.0477C17.5004 11.9495 17.749 11.8315 17.978 11.8446C18.593 11.8774 18.9397 12.5194 18.6322 13.1025C18.3051 13.7249 17.9649 14.3538 17.5331 14.9107C15.8714 17.0661 13.6798 18.3239 10.9778 18.6581C8.27591 18.9856 5.80949 18.3829 3.66364 16.6861C1.62901 15.081 0.438329 12.9715 0.0850489 10.3902C0.0392533 10.0299 0.0196267 9.66303 0 9.43373Z" fill="#696F71"/>
@@ -233,30 +233,13 @@
                   </defs>
                </svg>
             </a>
-            <div class="flex items-center border rounded-full p-1 pr-4 w-48 ml-2">
+            <div class="flex items-center border rounded-full p-1 pr-4 w-48 ml-2 hover:bg-gray-100 " id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation">
                <img class="w-9 h-9 mr-2 rounded-full" src="../src/img/man-face.jpg" alt="Rounded avatar">
                <span class="text-ellipsis overflow-hidden">Innovaty</span>
                <svg class="ml-auto" xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
                   <path d="M3.95458 7.64643C4.08315 7.86607 4.31708 8 4.57065 8C4.82422 8 5.05815 7.86607 5.18672 7.64643L9.04387 1.07499C9.17423 0.85356 9.17423 0.580346 9.04744 0.358917C8.92066 0.137488 8.68316 -1.20512e-05 8.4278 -1.20512e-05L0.7135 -1.20512e-05C0.458142 -1.20512e-05 0.220642 0.137488 0.093856 0.358917C-0.03293 0.580346 -0.0311443 0.855346 0.0974274 1.07499L3.95458 7.64643Z" fill="#727272"/>
                </svg>
             </div>
-         </div>
-      </div>
-
-      <div class="p-8 pt-0 sm:ml-64">
-        <div class="py-5">
-
-         <!-- Mobile Logo sm:-mt-10 --> 
-         <img class="absolute top-5 left-20 w-32 md:hidden" src="../src/img/encomer-logo-med.svg" alt="Encomer Logo">
-      
-         <div class="mt-5 flex justify-between md:relative">
-            <h1 class="h1">Comprobantes fiscales emitidos</h1>
-            <div class="flex items-center absolute top-7 right-10 sm:static md:static md:-top-2 md:right-0" id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation">
-               
-               
-               
-            </div>
-            
             <!-- Dropdown Profile Config -->
             <div id="dropdownInformation" class="font-gilroyMedium z-20 hidden bg-white divide-y divide-gray-100 rounded-xl shadow-xl w-100">
                <div class="p-6" aria-labelledby="dropdownInformationButton">
@@ -330,7 +313,17 @@
                </div>
             </div>
             <!-- / Dropdown Profile Config -->
+         </div>
+      </div>
 
+      <div class="p-8 pt-0 sm:ml-64">
+        <div class="py-5">
+
+         <!-- Mobile Logo sm:-mt-10 --> 
+         <img class="absolute top-5 left-20 w-32 md:hidden" src="../src/img/encomer-logo-med.svg" alt="Encomer Logo">
+      
+         <div class="mt-5 flex justify-between md:relative">
+            <h1 class="h1">Comprobantes fiscales emitidos</h1>
          </div>
       
            <div class="md:grid md:grid-cols-3 md:gap-4 lg:gap-16 mb-4">
