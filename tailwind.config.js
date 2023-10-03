@@ -13,6 +13,12 @@ module.exports = {
         wornGreen: '#E3F5F5',
         orange: '#FF4632',
       },
+      fontFamily: {
+        'gilroyBold': ['gilroyBold', 'sans-serif',],
+        'gilroySemibold': ['gilroySemibold', 'sans-serif',],
+        'gilroyMedium': ['gilroyMedium', 'sans-serif',],
+        'gilroyRegular': ['gilroyRegular', 'sans-serif',],
+      }
     },
   },
   plugins: [],
