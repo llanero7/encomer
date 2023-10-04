@@ -8,11 +8,11 @@
 </head>
 <body>
 
-    <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-6 ml-6 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-        <span class="sr-only">Open sidebar</span>
-        <svg class="w-8 h-8" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-           <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
-        </svg>
+      <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-6 ml-6 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+         <span class="sr-only">Open sidebar</span>
+         <svg class="w-8 h-8" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+         </svg>
       </button>
       
       <aside id="sidebar-multi-level-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
@@ -203,8 +203,8 @@
         </div>
       </aside>
       
-      <div class="p-8 py-4 sm:ml-64 grid grid-cols-1 md:grid-cols-3 md:gap-4 border-b border-slate-200">
-         
+      <!-- HEADER -->
+      <div class="p-8 py-4 sm:ml-64 grid grid-cols-1 md:grid-cols-3 md:gap-4 border-b border-slate-200">        
          <div class="hidden md:flex items-center pr-5 col-span-2 text-md font-gilroyRegular ">
             Hemos actualizado el módulo de compras. <a href="#" class="text-ligthGreen ml-2 hover:underline">Ver detalles</a>
          </div>
@@ -315,7 +315,9 @@
             <!-- / Dropdown Profile Config -->
          </div>
       </div>
+      <!-- / HEADER -->
 
+      <!-- CONTENT ------------------------- -->
       <div class="p-8 pt-0 sm:ml-64">
         <div class="py-5">
 
@@ -536,7 +538,7 @@
       
         </div>
       </div>
-
+      <!-- / CONTENT ----------------------- -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
  
 </body>
