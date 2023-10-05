@@ -69,3 +69,11 @@
 .toggle-button.active span {
     @apply text-ligthGreen font-gilroyBold
 }
+.section-icon {
+    opacity: 0.5;
+    @apply transition-all
+}
+
+.toggle-button.active .section-icon {
+    opacity: 1;
+}
