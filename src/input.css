@@ -57,3 +57,15 @@
 .view-more {
     @apply flex items-center font-medium text-ligthGreen hover:text-ligtherGreen
 }
+
+.icon {
+    transform: rotate(-90deg);
+    @apply transition-all
+}
+.toggle-button.active .icon {
+    transform: rotate(-1deg);
+}
+
+.toggle-button.active span {
+    @apply text-ligthGreen font-gilroyBold
+}
