@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>MetisMenu</title>
+    
+    <link rel="stylesheet" href="assets/css/metismenujs.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/mm-vertical.css">
+
+    <script src="https://kit.fontawesome.com/acc253ad7c.js" crossorigin="anonymous"></script>
+
+    <style>
+      /*--------------------- Este código no va ------------------------*/
+      @font-face {
+          font-family:'gilroyBold';
+          src: url('fonts/gilroyBold.woff2') format('woff2'),
+              url('fonts/gilroyBold.woff') format('woff');
+      }
+
+      @font-face {
+          font-family:'gilroySemibold';
+          src: url('fonts/gilroySemibold.woff2') format('woff2'),
+              url('fonts/gilroySemibold.woff') format('woff');
+          font-weight: bold;
+          font-style: normal;
+      }
+
+      @font-face {
+          font-family:'gilroyMedium';
+          src: url('fonts/gilroyMedium.woff2') format('woff2'),
+              url('fonts/gilroyMedium.woff') format('woff');
+          font-weight: bold;
+          font-style: normal;
+      }
+
+      @font-face {
+          font-family:'gilroyRegular';
+          src: url('fonts/gilroyRegular.woff2') format('woff2'),
+              url('fonts/gilroyRegular.woff') format('woff');
+          font-weight: bold;
+          font-style: normal;
+      }
+
+      /*--------------------- MetisMenu Encomer Styles ------------------------*/
+      .sidebar-nav {
+        font-family:'gilroyRegular';
+      }
+
+      .metismenu .has-arrow::after {
+        transform: rotate(-135deg) translate(0, -50%) !important;
+        transition: transform var(--mm-trantisition-duration) var(--mm-transition-timing-function);
+        border-width: 0 0 2px 2px;
+        color: #AFB8C4;
+      }
+      .metismenu .mm-active>.has-arrow::after, .metismenu .has-arrow[aria-expanded=true]::after {
+        transform: rotate(-45deg) translate(0, -50%) !important;
+      }
+      i {
+        color: #00ACA9;
+        opacity: 0.5;
+      }
+      li.mm-active > a{
+        font-family: 'gilroyBold', sans-serif;
+      }
+
+      .sidebar-nav .metismenu a:hover, 
+      .sidebar-nav .metismenu a:focus, 
+      .sidebar-nav .metismenu a:active, 
+      .sidebar-nav .metismenu .mm-active > a {
+          color: #00A39F;
+          text-decoration: none;
+      }
+
+      .sidebar-nav .metismenu a {
+          padding: 10px 15px 16px 20px;
+      }
+
+      .sidebar-nav .metismenu .mm-active > a {
+        background: #EEF8F6;
+      }
+      .sidebar-nav .metismenu .mm-active > a i {
+        opacity: 1;
+      }
+
+      .fa-regular, .far {
+        font-size: 25px;
+        margin-bottom: -5px;
+        margin-right: 2px;
+        position: relative;
+        bottom: -3px;
+        left: -6px;
+      }
+
+
+    </style>
+</head> 
+
+
+<body>
+  <div style="width: 300px;"> <!-- Delete this inline class -->
+    <nav class="sidebar-nav">
+    <ul id="menu1">
+      <li>
+        <a href="#">
+          <i class="fa-regular fa-gauge-high"></i>
+          Dashboard
+        </a>
+      </li>
+      <li>
+        <a class="has-arrow" href="#" aria-expanded="false">
+          <i class="fa-regular fa-cloud-arrow-up"></i>
+          Ventas
+        </a>
+        <ul>
+          <li>
+            <a href="#"> Fork
+            </a>
+          </li>
+          <li>
+            <a href="#">Star
+            </a>
+          </li>
+          <li>
+            <a href="#">Issues
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="has-arrow" href="#" aria-expanded="false">
+          <i class="fa-regular fa-cloud-arrow-down"></i>
+          Compras
+        </a>
+        <ul>
+          <li>
+            <a href="#">item 0.1</a>
+          </li>
+          <li>
+            <a href="#">item 0.2</a>
+          </li>
+          <li>
+            <a href="http://onokumus.github.io">onokumus</a>
+          </li>
+          <li>
+            <a href="#">item 0.4</a>
+          </li>
+        </ul>
+      </li>
+      <li id="removable">
+        <a class="has-arrow" href="#" aria-expanded="false">
+          <i class="fa-regular fa-credit-card"></i>
+          Pagos
+        </a>
+        <ul>
+          <li>
+            <a href="#">item 1.1</a>
+          </li>
+          <li>
+            <a href="#">item 1.2</a>
+          </li>
+          <li>
+            <a href="#">item 1.4</a>
+          </li>
+          <li>
+            <a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>
+            <ul>
+              <li>
+                <a href="#">item 1.5.1</a>
+              </li>
+              <li>
+                <a href="#">item 1.5.2</a>
+              </li>
+              <li>
+                <a href="#">item 1.5.3</a>
+              </li>
+              <li>
+                <a href="#">item 1.5.4</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="has-arrow" href="#" aria-expanded="false">
+          <i class="fa-regular fa-file-chart-column"></i>
+          Reportes
+        </a>
+        <ul>
+          <li>
+            <a href="#">item 2.1</a>
+          </li>
+          <li>
+            <a href="#">item 2.2</a>
+          </li>
+          <li>
+            <a href="#">item 2.3</a>
+          </li>
+          <li>
+            <a href="#">item 2.4</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-regular fa-bell"></i>
+          Notificación
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-regular fa-sliders"></i>
+          Configuración
+        </a>
+      </li>
+      <li>
+        <a class="has-arrow" href="#" aria-expanded="false">
+          <i class="fa-solid fa-gauge"></i>
+          Integración
+        </a>
+        <ul>
+          <li>
+            <a href="#">item 2.1</a>    
+          </li>
+          <li>
+            <a href="#">item 2.2</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-regular fa-browser"></i>
+          Suscripción
+        </a>
+      </li>
+    </ul>    
+  </nav>
+  </div>
+
+  <!-- /.row -->
+    <script src="assets/js/metismenujs.js"></script>
+    <script src="assets/js/mm-vertical.js"></script>
+</body>
+</html>

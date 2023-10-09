@@ -53,15 +53,16 @@
     @apply px-6 py-3 text-base
 }
 
-
 .view-more {
     @apply flex items-center font-medium text-ligthGreen hover:text-ligtherGreen
 }
 
+/* -------------------------- Sidebar --------------------------*/
 .icon {
     transform: rotate(-90deg);
     @apply transition-all
 }
+
 .toggle-button.active .icon {
     transform: rotate(-1deg);
 }
