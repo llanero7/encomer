@@ -46,6 +46,8 @@
       }
 
       /*--------------------- MetisMenu Encomer Styles ------------------------*/
+
+
       .sidebar-nav {
         font-family:'gilroyRegular';
       }
@@ -64,6 +66,10 @@
         opacity: 0.5;
       }
       li.mm-active > a{
+        font-family: 'gilroyBold', sans-serif;
+      }
+
+      .active-link {
         font-family: 'gilroyBold', sans-serif;
       }
 
@@ -87,18 +93,44 @@
       }
 
       .fa-regular, .far {
-        font-size: 25px;
-        margin-bottom: -5px;
-        margin-right: 2px;
-        position: relative;
-        bottom: -3px;
-        left: -6px;
+        font-size: 22px;
+        position: absolute;
+        left: 13px;
+        top: 10px;
+      }
+
+
+
+
+      .sidebar-nav .metismenu a {
+          padding: 10px 15px 101px 48px;
+          position: relative;
+          border-radius: 8;
+      }
+
+      .fa-regular, .far {
+        font-size: 22px;
+        position: absolute;
+        left: 13px;
+        top: 10px;
+      }
+
+      .sidebar-nav a{
+        display: block;
+      }
+      ul.mm-collapse.mm-show {
+        padding-left: 26px;
       }
 
 
     </style>
 </head> 
 
+- Toast Alerts
+- NGB Alerts
+
+Success
+Delete
 
 <body>
   <div style="width: 300px;"> <!-- Delete this inline class -->

@@ -78,3 +78,50 @@
 .toggle-button.active .section-icon {
     opacity: 1;
 }
+
+
+.profile-dropbown {
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.29);
+    box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.29);
+    
+}
+
+
+.mobile-logo {
+    display: none;
+}  
+@media (max-width: 640px) {
+    .mobile-logo {
+        display: block;
+        margin: 0 auto;
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }  
+}
+
+/* ---------------- Not available Item menu ----------------------*/
+a.not-available {
+        position: relative;
+}
+    
+a.not-available > span::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.coming-soon {
+    background: #DAF9E6;
+    padding: .20rem 0.65rem;
+    border-radius: 8px;
+    font-size: .875rem;
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+}
