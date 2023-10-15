@@ -89,9 +89,21 @@
 }
 
 
-.mobile-logo {
+.mobile-logo,
+.mobile-avatar {
     display: none;
 }  
+.avatar {
+    background: #DAE2E7;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding-top: 1px;
+    font-size: 20px;
+    text-align: center;
+    color: #696F71;
+    margin-right: 7px;
+}
 @media (max-width: 640px) {
     .mobile-logo {
         display: block;
@@ -99,11 +111,21 @@
         margin-top: -70px;
         margin-bottom: 30px;
     }  
+    .mobile-avatar {
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding-top: 6px;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
 }
+
 
 /* ---------------- Not available Item menu ----------------------*/
 a.not-available {
-        position: relative;
+    position: relative;
 }
     
 a.not-available > span::after{
@@ -125,3 +147,5 @@ a.not-available > span::after{
     right: 20px;
     z-index: 1;
 }
+
+

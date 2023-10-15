@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/acc253ad7c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -33,7 +35,7 @@
                         <rect width="22" height="22" fill="white"/>
                         </clipPath>
                         </defs>
-                     </svg>
+                     </svg>                     
                     <span class="ml-3">Dashboard</span>
                  </a>
               </li>
@@ -236,7 +238,7 @@
                </svg>
             </a>
             <div class="flex items-center border rounded-full p-1 pr-4 w-48 ml-2 hover:bg-gray-100 cursor-pointer" id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation">
-               <img class="w-9 h-9 mr-2 rounded-full" src="../src/img/avatar.svg" alt="Rounded avatar">
+               <div class="avatar"><i class="fa-solid fa-building"></i></div>
                <span class="text-ellipsis overflow-hidden">Innovaty</span>
                <svg class="ml-auto" xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
                   <path d="M3.95458 7.64643C4.08315 7.86607 4.31708 8 4.57065 8C4.82422 8 5.05815 7.86607 5.18672 7.64643L9.04387 1.07499C9.17423 0.85356 9.17423 0.580346 9.04744 0.358917C8.92066 0.137488 8.68316 -1.20512e-05 8.4278 -1.20512e-05L0.7135 -1.20512e-05C0.458142 -1.20512e-05 0.220642 0.137488 0.093856 0.358917C-0.03293 0.580346 -0.0311443 0.855346 0.0974274 1.07499L3.95458 7.64643Z" fill="#727272"/>
@@ -320,6 +322,7 @@
 
          <!-- Mobile Logo sm:-mt-10 --> 
          <img class="mobile-logo w-32 md:hidden" src="../src/img/encomer-logo-med.svg" alt="Encomer Logo">
+         <div class="avatar mobile-avatar" id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"><i class="fa-solid fa-building"></i></div>
       
          <div class="mt-5 flex justify-between md:relative">
             <h1 class="h1">Comprobantes fiscales emitidos</h1>
