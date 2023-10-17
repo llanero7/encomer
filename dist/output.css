@@ -918,6 +918,10 @@ video {
   width: 100%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -2690,6 +2694,10 @@ body h6, .h6 {
 
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:w-4\/6 {
+    width: 66.666667%;
   }
 
   .lg\:grid-cols-3 {
