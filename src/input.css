@@ -80,6 +80,9 @@
 }
 
 
+
+/*----------------------------------------------------*/
+
 .profile-dropbown {
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.29);
@@ -231,7 +234,13 @@ body h6, .h6 {
 
 /*----------------  Vertical From -------------------*/
 .input-group.vertical {
-    @apply md:block md:items-center mb-4
+    @apply md:block md:items-center mb-4 ;
+    margin-bottom: -0.3rem;
+}
+@media (max-width: 767px) { 
+    .input-group.vertical {
+        margin-bottom: 0.7rem;
+    }
 }
 
 .input-group.vertical label {
@@ -240,5 +249,5 @@ body h6, .h6 {
 
 
 .input-group.vertical input {
-    @apply block w-full p-3 border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular text-gray-500;
+    @apply block w-full p-3 border border-gray-300 focus:ring-blue-300 focus:border-gray-300 rounded-lg bg-white italic font-gilroyRegular text-gray-500;
 }

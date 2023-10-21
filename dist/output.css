@@ -918,10 +918,6 @@ video {
   width: 100%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -987,12 +983,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .-space-x-px > :not([hidden]) ~ :not([hidden]) {
@@ -1660,6 +1656,8 @@ video {
 .toggle-button.active .section-icon {
   opacity: 1;
 }
+
+/*----------------------------------------------------*/
 
 .profile-dropbown {
   border-radius: 20px;
@@ -2408,6 +2406,16 @@ body h6, .h6 {
   }
 }
 
+.input-group.vertical {
+  margin-bottom: -0.3rem;
+}
+
+@media (max-width: 767px) {
+  .input-group.vertical {
+    margin-bottom: 0.7rem;
+  }
+}
+
 .input-group.vertical label {
   margin-bottom: 0.25rem;
   display: block;
@@ -2692,12 +2700,12 @@ body h6, .h6 {
     display: block;
   }
 
-  .lg\:w-6\/12 {
-    width: 50%;
-  }
-
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-6\/12 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {
