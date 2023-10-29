@@ -155,45 +155,45 @@ a.not-available > span::after{
 /*------------------------- BUTTONS -------------------------*/
 
 .btn-primary[type="button"] {
-    @apply text-white bg-primary transition-all hover:bg-primaryLight focus:ring-teal-100 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-white bg-primary transition-all hover:bg-primaryLight focus:ring-teal-100 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-secondary[type="button"] {
-    @apply text-white bg-secondary transition-all hover:bg-secondaryLight focus:ring-emerald-200 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-white bg-secondary transition-all hover:bg-secondaryLight focus:ring-emerald-200 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-success[type="button"] {
-    @apply text-white bg-success transition-all hover:bg-successLight focus:ring-rose-200 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-white bg-success transition-all hover:bg-successLight focus:ring-rose-200 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-danger[type="button"] {
-    @apply text-white bg-danger transition-all hover:bg-dangerLight focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-white bg-danger transition-all hover:bg-dangerLight focus:ring-blue-300 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-warning[type="button"], .btn-warning[type="submit"]{
-    @apply  bg-warning transition-all hover:bg-warningLight focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply  bg-warning transition-all hover:bg-warningLight focus:ring-blue-300 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-info[type="button"] {
-    @apply text-white bg-info transition-all hover:bg-infoLight focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-white bg-info transition-all hover:bg-infoLight focus:ring-blue-300 font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 .btn-link[type="button"] {
-    @apply text-primary transition-all font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    @apply text-primary transition-all font-gilroyRegular rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
 }
 
 /*------------------------- OUTLINE BUTTONS -------------------------*/
 .btn-outline-primary[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-primary focus:outline-none bg-white rounded-full border border-primary hover:text-primaryLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-primary focus:outline-none bg-white rounded-full border border-primary hover:text-primaryLight focus:z-10;
 }
 .btn-outline-secondary[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-secondary focus:outline-none bg-white rounded-full border border-secondary hover:text-secondaryLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-secondary focus:outline-none bg-white rounded-full border border-secondary hover:text-secondaryLight focus:z-10;
 }
 .btn-outline-success[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-success focus:outline-none bg-white rounded-full border border-success hover:text-successLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-success focus:outline-none bg-white rounded-full border border-success hover:text-successLight focus:z-10;
 }
 .btn-outline-danger[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-danger focus:outline-none bg-white rounded-full border border-danger hover:text-dangerLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-danger focus:outline-none bg-white rounded-full border border-danger hover:text-dangerLight focus:z-10;
 }
 .btn-outline-warning[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-warning focus:outline-none bg-white rounded-full border border-warning hover:text-warningLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-warning focus:outline-none bg-white rounded-full border border-warning hover:text-warningLight focus:z-10;
 }
 .btn-outline-info[type="button"] {
-    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-info focus:outline-none bg-white rounded-full border border-info hover:text-infoLight focus:z-10;
+    @apply py-2.5 px-5 mr-2 mb-2 font-gilroyRegular text-info focus:outline-none bg-white rounded-full border border-info hover:text-infoLight focus:z-10;
 }
 /* HEADINGS */
 
@@ -219,10 +219,11 @@ body h6, .h6 {
 
 /*----------------  Horizontal From -------------------*/
 .input-group {
-    @apply md:flex md:items-center mb-4
+    @apply md:flex md:items-center mb-4;
+    font-size: 16px;
 }
 .input-group label {
-    @apply block text-gray-500 font-gilroySemibold md:text-right mb-1 md:mb-0 pr-4;
+    @apply block text-gray-500 font-gilroyRegular md:text-right mb-1 md:mb-0 pr-4;
 }
 .input-group input {
     @apply block w-full p-3 border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular text-gray-500;

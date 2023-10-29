@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/acc253ad7c.js" crossorigin="anonymous"></script>
 
 </head>
@@ -32,7 +31,6 @@
                 </div>
                 <div class="md:w-2/3">
                     <input type="search" id="default-search" class="input" required="yes">
-                    <input type="search" id="default-search" class="block w-full p-4 text-md text-blue-300	 border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular" placeholder="Desde - Hasta" required="">
                 </div>
             </div>
 
@@ -274,7 +272,6 @@
          <br /><br /><br /><br /><br />
         <h3 id="tables" class="mb-10 bg-secondary py-3 px-5 text-white font-gilroyMedium rounded-md">Tables</h3>
         <div class="w-full overflow-x-auto">
-
             <table class="table">
                <thead>
                   <tr>
@@ -390,6 +387,40 @@
                   </td>
             </tr>
             </table>
+        </div>
+
+       
+
+<br /><br /><br /><br /><br />
+        <h3 id="tables" class="mb-10 bg-secondary py-3 px-5 text-white font-gilroyMedium rounded-md">Checkbox</h3>
+        <div class="w-full overflow-x-auto">
+
+            <h4 class="mb-3">Notificaciones de correo</h4>
+            <p class="text-lg font-gilroyRegular mb-8">Encomer nunca compartirá o venderá información de identificación personal.  Estos correos serán enviado a su cuenta de correo registrada en encomer: <span class="font-gilroyBold">rcarreras@imnovaty.com</span></p>
+
+            <div class="p-5 bg-wornGreen font-gilroyRegular mb-11 rounded-lg border-l-8 border-primary">
+                Algunas comunicaciones son mandatorias y serán envíadas aún no estén marcada en su preferencia.  Necesitamos informar sobre notificaciones de la DGII, notificación del sistema y de cambios en nuestros términos y servicio de uso, etc.
+            </div>
+            <div class="flex items-center">
+                <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                <label for="default-checkbox" class="font-gilroyRegular ml-2 text-md text-gray-900 dark:text-gray-300">Pagos</label>
+            </div>
+            <p style="margin-left: 25px; margin-bottom: 30px; margin-top: -3px;" class="font-gilroyRegular text-md">Cuando una transacción de pago requiera de su atención y notificación de pagos.</p>
+            
+            <div class="flex items-center">
+                <input checked id="checked-checkbox-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                <label for="default-checkbox-2" class="font-gilroyRegular ml-2 text-md text-gray-900 dark:text-gray-300">Sincronización</label>
+            </div>
+            <p class="ml-6 mb-6 -mt-1 font-gilroyRegular">Cuando una transacción que deben sincronizarse da un error y requiera atención.</p>
+
+            <div class="flex items-center">
+                <input checked id="checked-checkbox-3" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                <label for="default-checkbox-3" class="font-gilroyRegular ml-2 text-md text-gray-900 dark:text-gray-300">Recepción de facturas</label>
+            </div>
+            <p class="ml-6 mb-6 -mt-1 font-gilroyRegular">Notificaciones de recepción de facturas.</p>
+
+            <button type="button" class="btn-primary">Visualizar</button>
+
         </div>
 
 
