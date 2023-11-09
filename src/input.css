@@ -219,11 +219,11 @@ body h6, .h6 {
 
 /*----------------  Horizontal From -------------------*/
 .input-group {
-    @apply md:flex md:items-center mb-4;
+    @apply lg:flex lg:items-center mb-4;
     font-size: 16px;
 }
 .input-group label {
-    @apply block text-gray-500 font-gilroyRegular md:text-right mb-1 md:mb-0 pr-4;
+    @apply block text-gray-500 font-gilroyRegular md:text-left mb-1 md:mb-0 pr-4;
 }
 .input-group input {
     @apply block w-full p-3 border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular text-gray-500;
