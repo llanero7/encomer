@@ -255,7 +255,14 @@ body h6, .h6 {
 
 
 .invoice-wrapper {
+    max-width: 900px;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.16);
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.16);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.16);
+}
+
+.centered-invoice {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
