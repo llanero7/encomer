@@ -19,7 +19,7 @@
       </button>
       
       <aside id="sidebar-multi-level-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-        <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-wornGreen dark:bg-gray-800">
          <div class="logo px-4 py-5">
             <img src="../src/img/encomer-logo-med.svg" alt="Encomer Logo">
          </div> 
@@ -213,7 +213,7 @@
             Hemos actualizado el módulo de compras. <a href="#" class="text-lightGreen ml-2 hover:underline">Ver detalles</a>
          </div>
          <div class="header hidden md:flex items-center justify-end">
-            <a href="#" class="cursor-pointer flex items-center justify-center border rounded-full w-10 h-10 hover:bg-gray-100"> 
+            <a href="#" class="circle-link"> 
                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewBox="0 0 19 22" fill="none">
                   <g clip-path="url(#clip0_165_1346)">
                   <path d="M9.50003 22C10.998 22 12.213 20.7689 12.213 19.25H6.78702C6.78702 20.7689 8.00208 22 9.50003 22ZM18.6349 15.5671C17.8155 14.6751 16.2824 13.3332 16.2824 8.9375C16.2824 5.59883 13.9718 2.92617 10.8563 2.27047V1.375C10.8563 0.615742 10.249 0 9.50003 0C8.75106 0 8.14373 0.615742 8.14373 1.375V2.27047C5.02824 2.92617 2.71771 5.59883 2.71771 8.9375C2.71771 13.3332 1.18456 14.6751 0.365186 15.5671C0.110721 15.8443 -0.00209121 16.1756 2.93223e-05 16.5C0.0046945 17.2047 0.55052 17.875 1.36141 17.875H17.6386C18.4495 17.875 18.9958 17.2047 19 16.5C19.0022 16.1756 18.8893 15.8439 18.6349 15.5671Z" fill="#696F71"/>
@@ -225,7 +225,7 @@
                   </defs>
                </svg>
             </a>
-            <a href="#" class="cursor-pointer flex items-center justify-center border rounded-full w-10 h-10 hover:bg-gray-100 ml-2"> 
+            <a href="#" class="circle-link ml-2"> 
                <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                   <g clip-path="url(#clip0_165_1343)">
                   <path d="M0 9.43373C0.05888 4.74296 3.46738 0.805586 7.97497 0.078385C8.13852 0.0521795 8.30208 0.0325254 8.46563 0.00631997C8.87779 -0.0526423 9.21799 0.10459 9.39463 0.432159C9.57127 0.766278 9.50585 1.15936 9.21144 1.46072C8.65536 2.01104 8.20394 2.63342 7.86375 3.33441C6.47026 6.21046 7.49738 9.5058 9.81987 11.2878C12.1293 13.0632 14.6415 13.2139 17.278 12.0477C17.5004 11.9495 17.749 11.8315 17.978 11.8446C18.593 11.8774 18.9397 12.5194 18.6322 13.1025C18.3051 13.7249 17.9649 14.3538 17.5331 14.9107C15.8714 17.0661 13.6798 18.3239 10.9778 18.6581C8.27591 18.9856 5.80949 18.3829 3.66364 16.6861C1.62901 15.081 0.438329 12.9715 0.0850489 10.3902C0.0392533 10.0299 0.0196267 9.66303 0 9.43373Z" fill="#696F71"/>
@@ -237,9 +237,9 @@
                   </defs>
                </svg>
             </a>
-            <div class="flex items-center border rounded-full p-1 pr-4 w-48 ml-2 hover:bg-gray-100 cursor-pointer" id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation">
+            <div class="flex items-center border rounded-full p-1 pr-4 ml-2 hover:bg-gray-100 cursor-pointer" id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation">
                <div class="avatar"><i class="fa-solid fa-building"></i></div>
-               <span class="text-ellipsis overflow-hidden">Innovaty</span>
+               <span class="company-name">Innovat adasd asd asd asd y</span>
                <svg class="ml-auto" xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
                   <path d="M3.95458 7.64643C4.08315 7.86607 4.31708 8 4.57065 8C4.82422 8 5.05815 7.86607 5.18672 7.64643L9.04387 1.07499C9.17423 0.85356 9.17423 0.580346 9.04744 0.358917C8.92066 0.137488 8.68316 -1.20512e-05 8.4278 -1.20512e-05L0.7135 -1.20512e-05C0.458142 -1.20512e-05 0.220642 0.137488 0.093856 0.358917C-0.03293 0.580346 -0.0311443 0.855346 0.0974274 1.07499L3.95458 7.64643Z" fill="#727272"/>
                </svg>
@@ -328,8 +328,8 @@
             <h1 class="h4 mb-3">Comprobantes fiscales emitidos</h1>
          </div>
       
-           <div class="md:grid md:grid-cols-3 md:gap-4 lg:gap-16 mb-4">
-              <div class="mb-4 md:mb-0"> 
+           <div class="filter-wrapper">
+              <div class="mb-4 lg:mb-0"> 
                   <select class="font-gilroyRegular block w-full p-4 text-md border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic text-gray-500">
                      <option selected>Tipos de comprobantes fiscal</option>
                      <option>Facturas de Crédito Fiscal</option>
@@ -337,11 +337,19 @@
                      <option>Notas de Débito </option>
                      </select> 
               </div>
-              <div class="mb-4 md:mb-0">  
+              <div class="mb-4 lg:mb-0"> 
+               <select class="font-gilroyRegular block w-full p-4 text-md border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic text-gray-500">
+                  <option selected>Tipos de comprobantes fiscal</option>
+                  <option>Facturas de Crédito Fiscal</option>
+                  <option>Facturas de Consumo</option>
+                  <option>Notas de Débito </option>
+                  </select> 
+              </div>
+              <div class="mb-4 lg:mb-0">  
                <label for="default-search" class="font-gilroyRegular mb-2 text-sm text-blue-300	sr-only dark:text-white">Calendar</label> 
                <div class="relative">
                   <input type="search" id="default-search" class="block w-full p-4 text-md text-blue-300	 border border-gray-300 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular" placeholder="Desde - Hasta" required>
-                  <button class="text-white absolute right-2 top-2 bg-lightGreen hover:bg-lighterGreen focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-3 w-11 h-11">
+                  <button class="text-white absolute right-2 top-2 bg-slate-400 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm py-3 w-11 h-11">
                      <svg class="absolute left-2 top-2" width="27" height="27" viewBox="0 0 22 22" fill="none">
                         <path d="M17.4167 3.66667H4.58333C3.57081 3.66667 2.75 4.48748 2.75 5.50001V18.3333C2.75 19.3459 3.57081 20.1667 4.58333 20.1667H17.4167C18.4292 20.1667 19.25 19.3459 19.25 18.3333V5.50001C19.25 4.48748 18.4292 3.66667 17.4167 3.66667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M14.6667 1.83333V5.49999" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -351,11 +359,11 @@
                   </button>
                </div>
                </div>
-              <div class="mb-4 md:mb-0">
+              <div class="mb-4 lg:mb-0">
                   <label for="default-search" class="mb-2 text-sm font-gilroyRegular  text-blue-300 sr-only dark:text-white">Search</label>
                   <div class="relative">
                      <input type="search" id="default-search" class="block w-full p-4 text-md text-blue-300	 border border-gray-300	 rounded-lg bg-white focus:ring-blue-300 focus:border-gray-300 italic font-gilroyRegular" placeholder="Número de factura" required>
-                     <button class="text-white absolute right-2 top-2 bg-lightGreen hover:bg-lighterGreen focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-3 w-11">
+                     <button class="text-white absolute right-2 top-2 bg-slate-400bg-lighterGreen focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-3 w-11">
                         <svg class="w-5 h-5 ml-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                         </svg>
@@ -366,18 +374,12 @@
            </div>
     
            <div class="flex flex-col items-center justify-center mb-4 mt-12 rounded">
-               <ul class="flex flex-wrap text-sm font-gilroySemibold text-center text-gray-500 bg-neutral-100 p-2 rounded-lg z-10">
+               <ul class="flex flex-wrap text-sm font-gilroySemibold text-center text-gray-500 bg-wornGreen p-2 rounded-lg z-10">
                   <li class="mr-2">
                      <a href="#" class="inline-block px-6 py-2 text-neutral-800 bg-white rounded-xl drop-shadow-md active" aria-current="page">Borrador</a>
                   </li>
                   <li class="mr-2">
                      <a href="#"  class="inline-block px-6 py-2 rounded-xl  hover:text-gray-900 hover:bg-gray-100 ">Enviado</a>
-                  </li>
-                  <li class="mr-2">
-                     <a href="#" class="inline-block px-6 py-2 rounded-xl hover:text-gray-900 hover:bg-gray-100 ">Rechazado</a>
-                  </li>
-                  <li class="mr-2">
-                     <a href="#" class="inline-block px-6 py-2 rounded-xl hover:text-gray-900 hover:bg-gray-100 ">Aceptado Comprador</a>
                   </li>
                </ul>
                <div class="h-px bg-slate-300 w-full -mt-6 mb-8"></div> 
@@ -401,7 +403,7 @@
                            <th scope="col" >
                               Tipo Comprobante
                            </th>
-                           <th scope="col" >
+                           <th scope="col">
                               Estatus
                            </th>
                            <th scope="col" class="px-6 py-3 text-base text-right">
@@ -427,7 +429,7 @@
                               Factura Crédito Fiscal Electrónica
                            </td>
                            <td class="px-6 py-4">
-                              <span class="bg-red-200 text-red-800 text-3xs font-semibold px-2 py-1.5 rounded">Rechazado</span>
+                              <span class="status-label danger">Rechazado</span>
                            </td>
                            <td class="px-6 py-4 text-right">
                               218,689.47 DOP
@@ -456,7 +458,7 @@
                            Factura Crédito Fiscal Electrónica
                         </td>
                         <td class="px-6 py-4">
-                           <span class="bg-sky-200 text-sky-700 text-3xs font-semibold px-2 py-1.5 rounded">Enviado</span>
+                           <span class="status-label info">Enviado</span>
                         </td>
                         <td class="px-6 py-4 text-right">
                            218,689.47 DOP
@@ -485,7 +487,7 @@
                         Factura Crédito Fiscal Electrónica
                      </td>
                      <td class="px-6 py-4">
-                        <span class="bg-green-200 text-green-600 text-3xs font-semibold px-2 py-1.5 rounded">Completado</span>
+                        <span class="status-label success">Completado</span>
                      </td>
                      <td class="px-6 py-4 text-right">
                         218,689.47 DOP
