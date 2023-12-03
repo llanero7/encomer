@@ -266,3 +266,57 @@ body h6, .h6 {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+/* -------------------------- LOGIN ------------------------------------*/
+
+.login-wrapper {
+    @apply container flex flex-col-reverse md:flex-row mx-auto my-14 md:max-w-7xl md:items-center md:justify-center ;
+}
+.login-wrapper .spacer {
+    @apply px-10 mb-10 md:w-1/2 mt-10;
+}
+
+.illustration {
+    @apply flex justify-center;
+}
+.login-wrapper h1 {
+    @apply mt-10 text-center text-3xl font-gilroyBold tracking-tight text-gray-900;
+}
+.login-wrapper h3 {
+    @apply text-center text-lg font-gilroyMedium leading-9 tracking-tight text-gray-900;
+}
+.login-wrapper .check-sign {
+    @apply flex-shrink-0 w-6 h-6 mr-2;
+}
+.field-wrapper {
+    @apply p-8 rounded-lg mx-7;
+    background: #D7F2F2;
+}
+
+.hr-text {
+    @apply p-4;
+    background: #D7F2F2;
+}
+.hr {
+    @apply h-px bg-slate-300 -mt-7 mb-7;
+}
+
+.login-wrapper .logo img {
+    width: 180px;
+}
+
+.spacer .logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+input {
+    border: solid 1px red;
+}
+
+input.focus\:ring-lightGreen:focus {
+    --tw-ring-opacity: 0 !important;
+    --tw-ring-color: transparent !important;
+}
