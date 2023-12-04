@@ -339,7 +339,9 @@ input.focus\:ring-lightGreen:focus {
     min-width: 40px;
 }
 .company-name {
-    @apply text-ellipsis overflow-hidden w-48 inline-block;
+    @apply text-ellipsis overflow-hidden inline-block;
+    max-width: 12rem;
+    min-width: 8rem;
     white-space: nowrap;
 }
 
